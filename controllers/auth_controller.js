@@ -1,7 +1,6 @@
 
 import jwt from 'jsonwebtoken';
-import User from '../model/authModel.js'
-
+import User from "../models/users/college_schema.js";
 
 
 

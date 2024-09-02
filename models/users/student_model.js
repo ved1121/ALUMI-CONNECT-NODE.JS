@@ -6,7 +6,7 @@ const StudentSchema = new mongoose.Schema({
   Email: { type: String, required: true, unique: true },
   Phone: { type: String },
   Dept: { type: String },
-  Branch: { type: String },
+  Branch: { type: String  },
   YearOfStudy: { type: Number },
   InterestedFields: { type: [String] } 
 });

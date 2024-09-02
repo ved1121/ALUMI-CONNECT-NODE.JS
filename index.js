@@ -5,6 +5,7 @@ import cookieParser from "cookie-parser";
 import dotenv from 'dotenv';
 import morgan from "morgan";
 import connectDB from "./config/db_config.js";
+import authRoutes from "./routes/auth_routes.js";
 
 
 
