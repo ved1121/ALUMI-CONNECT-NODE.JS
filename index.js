@@ -27,13 +27,13 @@ app.listen(PORT, () => {
   );
 });
 
-// //MIDLLEWARES
-// app.use(express.json());
-// app.use(cors());
-// app.use(morgan('dev'));
-// app.use(cookieParser());
+//MIDLLEWARES
+app.use(express());
+app.use(cors());
+app.use(morgan('dev'));
+app.use(cookieParser());
 
 
 
-// //ROUTES
-// app.use("/", authRoutes);
+//ROUTES
+app.use("/", authRoutes);
